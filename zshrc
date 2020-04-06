@@ -100,5 +100,17 @@ source $ZSH/oh-my-zsh.sh
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Use interactive mode for safety
 alias cp="cp -i"
 alias mv="mv -i"
+
+# Set terminal colors when launching screen
+alias tmux="TERM=screen-256color-bce tmux"
+
+# git aliases
+alias g='git'
+
+# Lazy aliases
+alias l='ls -l'
+alias la='ls -Al'
+alias ..='cd ..'
